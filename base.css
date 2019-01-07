@@ -1,0 +1,43 @@
+/* box behind the aside link bar */
+body {
+  background-color: #59a697;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+/* box around the aside link bar */
+div {
+  max-width: 185px;
+  border: 3px solid #52245c;
+}
+
+/* aside link bar */
+nav {
+  font-size: 25px;
+}
+
+/*link colors*/
+a {
+  color: #000000;
+}
+
+a:visited {
+  color: #bdb8c7;
+}
+
+a:hover {
+  color: #7b708f;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:hover, a:active {
+  outline: 0;
+}
+
+article, aside, details, dl, figcaption, figure, footer, header, main, nav, section {
+  display: block;
+}
