@@ -1,19 +1,5 @@
-/* box behind the aside link bar */
-body {
-  background-color: #59a697;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-}
-
-/* box around the aside link bar */
-div {
-  max-width: 185px;
-  border: 3px solid #52245c;
-}
-
 /* aside link bar */
-nav {
+nav{
   font-size: 25px;
 }
 

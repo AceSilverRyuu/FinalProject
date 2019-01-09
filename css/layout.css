@@ -1,0 +1,71 @@
+
+/*main background color*/
+html {
+	background-color: #733281;
+}
+/*shadows around the aside bar box*/
+body {
+	width: 100%;
+	max-width: 1425px;
+	height: 100%;
+	max-height: 2500px;
+	-moz-box-shadow: #a1ddcd 20px 0px 25px,  #a1ddcd -20px 0px 25px;
+	-webkit-box-shadow: #a1ddcd 20px 0px 25px,  #a1ddcd -20px 0px 25px;
+	box-shadow: #a1ddcd 20px 0px 25px,  #a1ddcd -20px 0px 25px;
+}
+/* box behind the aside link bar */
+body {
+  background-color: #59a697;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+.item1 align="center" {grid-area:main; }
+
+.grid-container {
+	/* display: grid; */
+	/* grid-gap: 10px; */
+	background-color: #8e7c9c;
+	padding: 10px;
+}
+
+.grid-container > div {
+background-color: #59a697;
+text-align: center;
+padding: 10px 0;
+font-size: 30px;
+}
+div {
+  /* max-width: 10000px;
+  max-height:100px; */
+  border: 3px solid #52245c;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1a1a1a;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #423748;
+}
+
+img {
+	max-width: 500px;
+}
