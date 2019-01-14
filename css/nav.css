@@ -1,6 +1,12 @@
 /* aside link bar */
+/*navigation bar*/
 nav{
   font-size: 25px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1a1a1a;
 }
 
 /*nav bar link visited color*/
@@ -11,4 +17,22 @@ a:visited {
 /*nav bar link hovered color*/
 a:hover {
   color: #7b708f;
+}
+/*nav bar word position*/
+li {
+  float: left;
+}
+
+/*nav bar box*/
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*nav bar hover color*/
+li a:hover {
+  background-color: #423748;
 }
