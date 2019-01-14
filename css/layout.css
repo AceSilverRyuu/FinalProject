@@ -8,7 +8,7 @@ body {
 	width: 100%;
 	max-width: 1425px;
 	height: 100%;
-	max-height: 2500px;
+	max-height: 5000px;
 	-moz-box-shadow: #a1ddcd 20px 0px 25px,  #a1ddcd -20px 0px 25px;
 	-webkit-box-shadow: #a1ddcd 20px 0px 25px,  #a1ddcd -20px 0px 25px;
 	box-shadow: #a1ddcd 20px 0px 25px,  #a1ddcd -20px 0px 25px;
@@ -49,7 +49,7 @@ div {
 }
 
 /*navigation bar*/
-ul {
+nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -79,4 +79,19 @@ li a:hover {
 /*img sizes*/
 img {
 	max-width: 500px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+/*table border*/
+td, th {
+  border: 5px solid #1c837a;
+  text-align: left;
+  padding: 8px;
+}
+/*#4e0f49 table background*/
+tr:nth-child(even) {
+  background-color: #4e0f49;
 }
